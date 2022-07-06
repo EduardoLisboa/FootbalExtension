@@ -128,7 +128,6 @@ def RedrawAfter(field,field2):
                 pygame.quit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if before.isOver(pos):
-                    RedrawBefore(field2, field)
                     run = False
 
 def DrawField(before,after):
